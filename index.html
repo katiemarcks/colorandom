@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>COLORANDOM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="main-section">
+    <h1>COLORANDOM</h1>
+    <div class="palette">
+      <div class="color-1">
+        <div class="color-container box-1"></div>
+        <p>
+          <input id="hexcode-1" maxlength=7 />
+          <img id="lock-1" src="assets/images/unlocked.png" />
+        </p>
+      </div>
+
+      <div class="color-2">
+        <div class="color-container box-2"></div>
+        <p>
+          <input id="hexcode-2" maxlength=7 />
+          <img id="lock-2" src="assets/images/unlocked.png" />
+        </p>
+      </div>
+      <div class="color-3">
+        <div class="color-container box-3"></div>
+        <p>
+          <input id="hexcode-3" maxlength=7 /><img id="lock-3" src="assets/images/unlocked.png" />
+        </p>
+      </div>
+      <div class="color-4">
+        <div class="color-container box-4"></div>
+        <p>
+          <input id="hexcode-4" maxlength=7 />
+          <img id="lock-4" src="assets/images/unlocked.png" />
+        </p>
+      </div>
+      <div class="color-5">
+        <div class="color-container box-5"></div>
+        <p>
+          <input id="hexcode-5" maxlength=7 />
+          <img id="lock-5" src="assets/images/unlocked.png" />
+        </p>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="new-palette-button">New Palette</button>
+      <button class="save-palette-button">Save Palette</button>
+    </div>
+  </section>
+  <aside>
+    <h2>Saved Palettes</h2>
+    <div class="saved-palettes"></div>
+  </aside>
+  <script src="color.js"></script>
+  <script src="palette.js"></script>
+  <script src="scripts.js"></script>
+  <script src="saved-palettes.js"></script>
+</body>
+
+</html>
