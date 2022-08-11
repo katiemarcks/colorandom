@@ -77,9 +77,14 @@ img {
   margin-left: 7px;
 }
 
+.lock-button {
+  cursor: pointer;
+}
+
 button {
   padding: 15px;
   font-family: inherit;
+  cursor: pointer;
 }
 
 .buttons {
@@ -89,7 +94,7 @@ button {
 
 input {
   width: 70px;
-  cursor: pointer;
+  cursor: text;
   border: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
