@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
 @font-face {
   font-family: FuzzyBubbles;
   src: url(assets/fonts/FuzzyBubbles-Regular.ttf);
@@ -7,14 +13,17 @@ body {
   display: flex;
   margin: 0;
   height: 100vh;
-  font-family: FuzzyBubbles;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 60px;
+  font-family: FuzzyBubbles;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: FuzzyBubbles;
 }
 
 .main-section {
@@ -83,19 +92,18 @@ img {
 
 button {
   padding: 15px;
-  font-family: inherit;
+  font-family: FuzzyBubbles;
   cursor: pointer;
 }
 
 .buttons {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 input {
   width: 70px;
   cursor: text;
   border: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
